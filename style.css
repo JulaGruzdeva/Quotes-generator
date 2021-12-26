@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Alef&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@200;400&display=swap');
+body{
+    background-color: #a8dadc;
+    
+}
+.container{
+
+    width: 95%;
+    height: 90vh;
+    display: flex;
+    text-align: center;
+}
+
+.quotes{
+    
+    width: 900px;
+    height: 450px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+    color: #f1faee;
+    background-color: #457b9d;
+    border: 10px solid #1d3557;
+
+}
+
+
+.quotes p, .quotes h3{
+    font-size: 1.5rem;
+    font-family: 'Alef', sans-serif;
+}
+
+@media(max-width:480px){
+    .quotes p, .quotes h3{
+        font-size: 1.5rem;
+    }
+}
+
+.btn-info, .btn-info:hover, .btn-info:focus, .btn-info:visited, .btn-info:active{
+    background-color: #1d3557;
+    color: #f1faee;
+    border: none;
+    box-shadow: none;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight:400px;
+}
